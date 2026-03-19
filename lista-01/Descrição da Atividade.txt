@@ -1,0 +1,17 @@
+﻿Laboratório 1: Introdução ao SQL e  Consultas Básicas 
+Descrição da Tarefa 
+O objetivo desta atividade é exercitar a recuperação de dados utilizando a tabela pedidos.  Vocês deverão aplicar filtros, ordenações e limites de resultados para responder às  demandas de negócio listadas abaixo.  
+Utilizando exclusivamente os comandos SELECT, FROM, WHERE, ORDER BY e LIMIT,  desenvolva as consultas SQL para as seguintes solicitações:  
+1. Listar pedidos de um produto específico: exiba o id, nome_cliente e valor_total  de todos os pedidos vinculados ao produto "Notebook". 
+2. Filtrar pedidos por valor e ordenar: mostre o id, nome_cliente e valor_total dos  pedidos com valor_total superior a 1000.00, ordenando os resultados pelo valor  total em ordem decrescente. 
+3. Pedidos com um status específico: liste o id, nome_produto e status_pedido dos  pedidos que estão com o status "Em Transporte". 
+4. Pedidos pagos com PIX: selecione o id, nome_cliente e forma_pagamento dos  registros cujo pagamento foi realizado via "PIX". 
+5. Pedidos aprovados limitados: exiba o id, nome_produto e data_pedido dos 3  primeiros pedidos com status_pedido igual a "Aprovado", ordenados  
+cronologicamente pela data do pedido. 
+6. Pedidos com múltiplas quantidades: liste o id, nome_cliente, nome_produto e  quantidade dos pedidos em que a quantidade comprada seja maior que 1. 
+7. Pedidos com valor dentro de um intervalo: mostre o nome_produto, valor_total  e forma_pagamento dos pedidos com valor total entre 100.00 e 1000.00,  ordenando os resultados pela forma de pagamento. 
+8. Pedidos de um cliente específico: exiba o id, nome_produto, data_pedido e  valor_total das compras realizadas por "João Silva", ordenadas da data mais antiga  para a mais recente. 
+9. Pedidos por método de pagamento: liste o id, nome_cliente, valor_total e  status_pedido dos pedidos que foram realizados utilizando a forma de pagamento  "Boleto". 
+10. Pedidos pendentes de um produto: selecione o id, nome_cliente, nome_produto  e status_pedido dos pedidos do produto "Mouse Sem Fio" em que o status seja  diferente de "Entregue".
+Entrega 
+A entrega deve consistir em 10 arquivos individuais com a extensão .sql (ex:  exercicio1.sql, exercicio2.sql, etc.), contendo o comando correspondente a cada uma das  perguntas formuladas.
